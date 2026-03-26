@@ -19,27 +19,27 @@ https://www.bilibili.com/video/BV1MG1kB5EUc/?share_source=copy_web&vd_source=c2c
 
 ## 主要代码结构
 Scripts/
-├── Player/                          
-│   ├── PlayerMovement.cs            # 角色移动、跳跃、物理系统
-│   └── PlayerLife.cs                # 玩家生命、死亡重生
+├── Player/
+│ ├── PlayerMovement.cs # 角色移动、跳跃、物理系统
+│ └── PlayerLife.cs # 玩家生命、死亡重生
 │
 ├── Mechanism/
-│   ├── Platform                     # 移动平台机关
-│   │   ├── WaypointFollower.cs      # 平台路径点移动
-│   |   └── StickyPlatform.cs        # 玩家粘附平台、跟随移动
-│   └── Trap
-│       └── Rotate.cs                # 齿轮机关的旋转 
+│ ├── Platform/ # 移动平台机关
+│ │ ├── WaypointFollower.cs # 平台路径点移动
+│ │ └── StickyPlatform.cs # 玩家粘附平台、跟随移动
+│ └── Trap/
+│ └── Rotate.cs # 齿轮机关的旋转
 │
-├── Level/                           
-│   ├── Camera.cs                    # 摄像机跟随
-│   └── Finish.cs                    # 通关终点
+├── Level/
+│ ├── Camera.cs # 摄像机跟随
+│ └── Finish.cs # 通关终点
 │
-├── Collectible/                     
-│   └── item_collector.cs            # 物品收集与累计
+├── Collectible/
+│ └── item_collector.cs # 物品收集与累计
 │
-└── UI/                              
-    ├── StartMenu.cs                 # 开始菜单
-    ├── EndMenu.cs                   # 通关/结束菜单
-    └── Dialogue.cs                  # 对话系统
+└── UI/
+├── StartMenu.cs # 开始菜单
+├── EndMenu.cs # 通关/结束菜单
+└── Dialogue.cs # 对话系统
 
 ## 遇到的问题与解决
