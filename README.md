@@ -18,7 +18,7 @@ https://www.bilibili.com/video/BV1MG1kB5EUc/?share_source=copy_web&vd_source=c2c
 - 状态机管理：idle / run / jump / wallSlide 等状态
 
 ## 主要代码结构
-···
+```
 Scripts/
 ├── Player/
 │   ├── PlayerMovement.cs            # 角色移动、跳跃、物理系统
@@ -38,5 +38,6 @@ Scripts/
     ├── StartMenu.cs                 # 开始菜单
     ├── EndMenu.cs                   # 通关/结束菜单
     └── Dialogue.cs                  # 对话系统
+```
     
 ## 遇到的问题与解决
