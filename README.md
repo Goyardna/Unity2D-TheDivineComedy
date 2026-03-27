@@ -16,7 +16,7 @@ https://www.bilibili.com/video/BV1MG1kB5EUc/?share_source=copy_web&vd_source=c2c
 - 差异化关卡设计：4个主题关卡，每个关卡配置不同的跳跃力度与重力系数
 - 完整游戏系统：死亡重生、收集物品累计、动态陷阱机制
 - 状态机管理：idle / run / jump / walking / death 等状态
-- <img width="1078" height="416" alt="image" src="https://github.com/user-attachments/assets/459bcfff-32fc-4964-8075-52be07d47e4e" />
+<img width="539" height="208" alt="image" src="https://github.com/user-attachments/assets/459bcfff-32fc-4964-8075-52be07d47e4e" />
 
 
 ## 主要代码结构
